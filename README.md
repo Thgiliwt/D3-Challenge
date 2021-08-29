@@ -33,7 +33,7 @@ Where I did not include the 'this' and it failed to display the data...
 ### Uncertainties
 1. I have used a relative sizing on the svg area but I only made it for the svg, where the webpage contains other stuff then it is not working properly... 
 2. The toolTip message should have a unit of a % sign after some of the values, I have tried to set a third variable when defining the toolTip as:
-      function updateTooltip(chosenXaxis,chosenYaxis,circlesGroup){
+    > function updateTooltip(chosenXaxis,chosenYaxis,circlesGroup){
         var xlabel
         var ylabel
         **var theUnit**
